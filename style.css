@@ -1,0 +1,60 @@
+h1 {
+    text-align: center;
+    color: #040679;
+    font-family: 'Broadway', sans-serif;
+    font-weight: bold;
+}
+
+body {
+    margin: 20px;
+    background-color: rgb(135, 223, 250);
+}
+
+.studentForm {
+    background-color: rgb(238, 144, 233);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.studentForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.studentForm .inpLabel {
+    font-weight: bold;
+    font-size: x-large;
+    color: #290552;
+}
+
+.studentForm input,
+.studentForm select {
+    width: auto;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #148878;
+    border-radius: 4px;
+}
+
+.studentForm input[type="submit"],
+.studentForm input[type="reset"] {
+    width: auto;
+    background-color: #7f4caf;
+    color: rgb(147, 223, 128);
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
+.studentForm input[type="submit"]:hover,
+.studentForm input[type="reset"]:hover {
+    background-color: #588f3f;
+}
+
+.studentTable {
+    margin: 0 auto;
+}
