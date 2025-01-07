@@ -58,3 +58,8 @@ body {
 .studentTable {
     margin: 0 auto;
 }
+@media.only.screen.and.(max-width: 250px){
+    body {
+        background-color: red
+    }
+}
