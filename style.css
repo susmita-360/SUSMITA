@@ -52,14 +52,15 @@ body {
 
 .studentForm input[type="submit"]:hover,
 .studentForm input[type="reset"]:hover {
-    background-color: #588f3f;
+    background-color: #8f3f64;
 }
 
 .studentTable {
     margin: 0 auto;
 }
-@media.only.screen.and.(max-width: 250px){
+
+@media screen and (max-width: 1000px){
     body {
-        background-color: red
+        background-color: rgb(0, 255, 136);
     }
 }
